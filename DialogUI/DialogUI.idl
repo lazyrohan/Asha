@@ -1,0 +1,29 @@
+// DialogUI.idl : DialogUI.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(DialogUI.tlb)。
+
+[ uuid(96E43A7E-1D20-4439-817F-54466E977506), version(1.0) ]
+library DialogUI
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CDialogUIDoc 的主调度接口
+	
+	[ uuid(14EEA91E-D7D5-49E0-A0C5-091B24D632D2) ]
+	dispinterface IDialogUI
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CDialogUIDoc 的类信息
+	
+	[ uuid(61B53F62-8503-4916-8832-206ED8988F8C) ]
+	coclass DialogUI
+	{
+		[default] dispinterface IDialogUI;
+	};
+};

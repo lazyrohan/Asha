@@ -1,0 +1,17 @@
+REGEDIT
+; 此 .REG 文件可能由 SETUP 程序使用。
+;   如果 SETUP 程序不可用，则调用
+;   CWinApp::RegisterShellFileTypes 和 COleObjectFactory::UpdateRegistryAll
+;   在 InitInstance 中对下列项自动进行注册。
+
+
+HKEY_CLASSES_ROOT\DialogUI.Application = DialogUI Application
+
+
+HKEY_CLASSES_ROOT\DialogUI.Application\CLSID = {61B53F62-8503-4916-8832-206ED8988F8C}
+
+HKEY_CLASSES_ROOT\CLSID\{61B53F62-8503-4916-8832-206ED8988F8C} = DialogUI Application
+HKEY_CLASSES_ROOT\CLSID\{61B53F62-8503-4916-8832-206ED8988F8C}\ProgId = DialogUI.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{61B53F62-8503-4916-8832-206ED8988F8C}\LocalServer32 = DialogUI.EXE

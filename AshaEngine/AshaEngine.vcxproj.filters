@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{3106096f-0dc7-4b0c-bf30-2dc6c4429916}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ahmModelClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppSysClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hModelGloble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11GraphClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AshaGraphClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dut_globle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AshaModelClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AshaLightClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AshaShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AshaCameraClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ahmModelClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppSysClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hModelGloble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11GraphClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AshaGraphClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dut_globle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AshaModelClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AshaLightClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AshaShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AshaCameraClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Game Dev\HUD\icol.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
